@@ -6,7 +6,7 @@ import TestimonialCard from "@/components/TestimonialCard";
 import UpcomingWebinar from "@/components/UpcomingWebinar";
 import Instructor from "@/components/Instructor";
 import BlogPost from "@/components/blogs/blog-posts";
-
+import Accordion from "@/components/accordion/accordion";
 
 export default async function Home() {
 
@@ -30,6 +30,9 @@ export default async function Home() {
         </section>
         <section>
           <BlogPost/>
+        </section>
+        <section>
+          <Accordion/>
         </section>
         <section>
           <Instructor/>
