@@ -17,7 +17,7 @@ function Hero() {
     }}>
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"/>
-      <div className="w-full md:max-w-[70%]">
+      <div className="mt-[150px] xl:mt-0 max-w-[300px] md:max-w-[70%]">
         <Text size="9" className="text-center  p-3 m-2">
           {t("t1")}
         </Text>
@@ -32,11 +32,11 @@ function Hero() {
               Explore Courses
             </Button>
           </Link>
-          <div className="flex">
+          <div className="block xl:flex">
             <Image src="/225.png" alt="imageLogos" width={500} height={500}
-              className=" h-[175px] my-20" />
+              className=" h-[175px] xl:my-20" />
             <Image src="/226.png" alt="imageLogos" width={500} height={500}
-              className=" h-[175px] my-20" />
+              className="hidden xl:block h-[175px] xl:my-20" />
           </div>
         </div>
       </div>
